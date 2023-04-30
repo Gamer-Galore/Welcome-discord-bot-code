@@ -45,7 +45,7 @@ async def on_guild_remove(guild):
 async def main():
     async with client:
         await load()
-        await client.start("")
+        await client.start("bot token here")
 
 
 asyncio.run(main())
