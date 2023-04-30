@@ -45,7 +45,7 @@ async def on_guild_remove(guild):
 async def main():
     async with client:
         await load()
-        await client.start("MTEwMjExMzcyMjU2ODI3ODA0Ng.GwG3d_.0_QMEfSBgx6stfmvIZ02H6A-ftbQ3AuqseAB20")
+        await client.start("")
 
 
 asyncio.run(main())
